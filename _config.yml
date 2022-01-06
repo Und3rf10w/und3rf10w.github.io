@@ -21,9 +21,9 @@
 title: Und3rf10w's Blog
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A site for random rants and ravings of Und3rf10w. Mostly security related things.
+  My random rants and ravings from Und3rf10w
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://und3rf10w.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Und3rf10w
 github_username:  Und3rf10w
 
@@ -31,6 +31,7 @@ github_username:  Und3rf10w
 # theme: pages-themes/hacker
 remote_theme: pages-themes/hacker
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
 
 # Exclude from processing.
@@ -55,4 +56,7 @@ plugins:
 
 # GitHub Specific things
 # show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
+# show_downloads: false
 # google_analytics: [Your Google Analytics tracking ID]
+# github:
+#   repository_url: https://meatspin.com
