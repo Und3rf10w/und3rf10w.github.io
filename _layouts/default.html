@@ -34,4 +34,11 @@
       </section>
     </div>
   </body>
+  <footer>
+    {% if page.layout == 'post' %}
+      {% include footer-post.html %}
+    {% else %}
+      {% include footer-default.html %}
+    {% endif %}
+  </footer>
 </html>

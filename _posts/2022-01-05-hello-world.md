@@ -2,7 +2,9 @@
 layout: post
 title: "Hello World"
 date: 2022-01-05
-categories: info update
+categories: posts
+tags: info update
+author: Und3rf10w
 ---
 It's time. I'm gonna give blogging another shot. No more fear.
 
