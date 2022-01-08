@@ -14,7 +14,7 @@ I'm excited to finally discuss and share the Proof-of-Concept code for an implan
 Prior to releasing the source code of the Shlyuz framework, I'll be releasing a series of posts that cover some background, design decisions, and lessons learned. This first, particular post will not dive into much into Shlyuz itself yet, but that will be done in future posts of this series.
 
 # Why write this?
-I've [written before](https://twitter.com/Und3rf10w/status/1458616221381836800) about my belief that implementing a C2 is a a great way to get familiar with a programming language. At the time I wrote Shlyuz, I considered myself to be a fairly weak programmer. Writing Shlyuz provided me the opportunity to explore a number of concepts that I wanted to get more familiar with such as:
+I've [written before](https://twitter.com/Und3rf10w/status/1458616221381836800) about my belief that implementing a C2 is a a great way to get familiar with a programming language. At the time I wrote Shlyuz, I considered myself to be not even a decent programmer. Writing Shlyuz provided me the opportunity to explore a number of concepts that I wanted to get more familiar with such as:
 
 - rotating communication channels
 - split server/client/console infrastructure design and implementation
@@ -28,7 +28,7 @@ I've [written before](https://twitter.com/Und3rf10w/status/1458616221381836800) 
 - asynchronous design
 - protocol design
 
-These are quite lofty goals, especially for someone that was rather weak in programming (like I literally barely understood object-oriented programming at the time), but this seemed like the perfect project to attempt to learn some about these concepts through implementing them.
+These are quite lofty goals, especially for someone that's a self-taught programmer, but this seemed like the perfect project to attempt to learn and combine some about these concepts through implementation and design.
 
 I'm a huge fan of system design that is as deniable as possible, and Vault 7 provided a rare window of opportunity to understand how groups that rely on this concept implement it.
 
