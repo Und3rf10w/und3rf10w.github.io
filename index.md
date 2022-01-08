@@ -5,7 +5,7 @@ layout: default
 {% for post in site.posts %}
     <a href="{{ post.url | prepend: site.baseurl }}">
       <h1 class="post-title"> {{ post.title }}</h1>
-      <h5 class="post-title"> {{ post.date }} </h5>
+      <h5 class="post-title"> {{ post.date | date: "%Y-%m-%d" }} </h5>
     </a>
     {{post.excerpt}}
     {% if post.content contains site.excerpt_separator %}
