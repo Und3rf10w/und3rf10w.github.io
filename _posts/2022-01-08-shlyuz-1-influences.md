@@ -67,7 +67,7 @@ Galleon interfaces expose their functionality through handlers, which are called
 Frankly, I wasn't interested in "recreating Assassin", but this was a neat model to use for inspiration.
 
 ### Galleon Transport Interface
-With one of my interest being weird ways to do transport channels, it's a useful exercise to gain an understanding of what a Galleon Transport Interface might look like. Transport interfaces are "*...used to transmit arbitrary data between components that may or may not be on the same machine*".
+With one of my interests being weird ways to do transport channels, it's a useful exercise to gain an understanding of what a Galleon Transport Interface might look like. Transport interfaces are "*...used to transmit arbitrary data between components that may or may not be on the same machine*".
 
 Rather than trying to explain the transport process myself, showing an excerpt of the design document would be more advantageous:
 
