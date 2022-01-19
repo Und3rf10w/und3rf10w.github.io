@@ -12,9 +12,9 @@ author: Und3rf10w
 
 Before we can start designing a protocol that suits our needs, we must first create a target architecture to achieve. Again closely modeling Assassin, a Shlyuz deployment consists of 3 primary different components:
 
-> Teamserver
-> Listening Post
-> Implant
+- Teamserver
+- Listening Post
+- Implant
 
 There are additional unimplemented components like the console and builder, but these are not needed for Shlyuz to function.
 
